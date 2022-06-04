@@ -1,5 +1,5 @@
-import ReactDOM from "react-dom";
+import createReact from 'react-dom';
 import App from './App';
 import './index.css';
 
-ReactDOM.render(<App/>, document.querySelector("#root"))
+createReact.render(<App/>, document.querySelector("#root"))
