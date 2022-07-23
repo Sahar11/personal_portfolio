@@ -31,12 +31,12 @@ transition: var(--transition);
 }
 
 .contact__option a {
-  margin-top: 1.7rem;
+  margin-top: 0.7rem;
   display: inline-block;
   font-size: 0.8rem;
 }
 
-/* ========FORM ======== */
+/* ======== FORM ======== */
 
 form {
   display: flex;
@@ -52,6 +52,10 @@ input, textarea {
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: var(--color-white);
+}
+
+::placeholder {
+color:var(--color-white);
 }
 
 /*=========Media Queries (Medium Devices) =========*/

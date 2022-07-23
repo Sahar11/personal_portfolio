@@ -24,24 +24,24 @@ const Contact = () => {
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>saharhalim151@gmail.com</h5>
-            <a href="mailto:saharhalim151@gmail.com" target="_blank">Send a Message</a>
-          </article>
-          <article className="contact__option">
+            <a href="mailto:saharhalim151@gmail.com" target="_blank" rel ="noreferrer">Send a Message</a>
+          </article> */}
+          {/* <article className="contact__option">
             <RiMessengerLine className="contact__option-icon"/>
             <h4>Messenger</h4>
             <h5>facebook</h5>
-            <a href="https://m.me/sahar.zia" target="_blank">Send a Message</a>
-          </article>
-          <article className="contact__option">
+            <a href="https://m.me/sahar.zia" target="_blank"   rel="noreferrer">Send a Message</a>
+          </article> */}
+          {/* <article className="contact__option">
             <BsWhatsapp className="contact__option-icon"/>
             <h4>WhatsApp</h4>
             <h5>+1234567</h5>
-            <a href="https://api.whatsapp.com/send?phone=+1234567" target="_blank">Send a Message</a>
-          </article>
+            <a href="https://api.whatsapp.com/send?phone=+1234567" target="_blank" rel ="noreferrer" >Send a Message</a>
+          </article> */}
         </div>
         {/* END OF CONTACT OPTIONS */}
         <form ref={form}>

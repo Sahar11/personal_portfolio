@@ -11,17 +11,17 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-bg: #228642;
+  --color-bg-variant: #2aa03e;
+  --color-primary: #33ce33;
+  --color-primary-variant: #8bc34a;
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
   --transition: all 400ms ease;
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-sm: 90%;
 }
 
 html {
@@ -37,8 +37,10 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bg-texture.png);
-}
+  /* background-image: url(../src/assets/bg-texture.png); */
+  background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+
+} 
 
 /* ========= General Styles ======== */
 
@@ -129,7 +131,7 @@ img {
 
 /*=========Media Queries (Small Devices) =========*/
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
